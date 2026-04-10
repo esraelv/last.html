@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(145deg, #e9eef3 0%, #dfe4ea 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem ;
+    }
+   
+
+
+    
+    .panel-header {
+      padding: 2rem;
+      border-bottom: 4px solid #6ba7e2;
+    }
+
+    .panel-header h1 {
+      font-size: 2rem;
+      font-weight: 6000;
+      letter-spacing: ;
+      background: linear-gradient(135deg, #3469b4, #ced0d1);
+      -webkit-background-clip: text;
+      color: transparent;
+      margin-bottom: rem;
+    }
+
+    .panel-header p {
+      color: #608ab1;
+      font-size: 0.9rem;
+      font-weight: 400;
+    }
+
+
+    .buttons-grid {
+      display: ;
+      padding: 1em ;
+    }
+
+    
+    .button-card {
+      background: #f9f0e9;
+      border-radius: 2rem;
+      padding: 1rem 1rem ;
+      transition: transform 0.3s;
+      border: 1px solid #396fa5;
+    }
+
+    .button-card:hover {
+      transform: translatex(-5px);
+    }
+
+
+    
+    .brand {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    
+    .brand h2 {
+      font-size: 1.45rem;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+      background: ed;
+      color: #1f2a3e;
+    }
+
+
+
+    .color-badge {
+      font-size: rem;
+      font-weight: 500;
+      background: #f1f5f9;
+      border-radius: 20px;
+      font-family: fantasy;
+      color: #5295d8;
+      border: 2px solid #b1daec;
+    }
+
+
+
+    
+    .btn {
+      gap: 0.5rem;
+      border: none;
+      font-weight: 570;
+      font-size: 0.9rem;
+      font-family: inherit;
+      padding: 0.7rem 1rem;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: ;
+      background: transparent;
+      letter-spacing: -0.2px;
+      width: 100%;
+    }
+
+
+
+
+    .btn-uber {
+      background-color: #000000;
+      color: rgb(237, 172, 172);
+      font-weight: ;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .btn-uber:hover {
+      background-color: #080808;
+      transform: scale(0.8);
+    }
+
+
+
+    .btn-amazon {
+      background-color: rgb(255, 216, 20);
+      color: #0f1111;
+      font-weight: 600;
+      border: 1px solid #f3cd02;
+    }
+    .btn-amazon:hover {
+      background-color: #675812;
+      transform: scale(0.98);
+    }
+
+
+
+
+    .btn-github {
+      background-color: rgb(46, 164, 79);
+      color: white;
+      font-weight: ;
+    }
+    .btn-github:hover {
+      background-color: #2c974b;
+      transform: scale(0.98);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+
+
+
+    .btn-bootstrap-primary {
+      background-color: rgb(121, 82, 179);
+      color: white;
+      font-weight: 550;
+    }
+    .btn-bootstrap-primary:hover {
+      background-color: #6a3d9e;
+      transform: scale(0.98);
+    }
+
+
+
+    .btn-bootstrap-secondary {
+      background-color: rgb(108, 117, 125);
+      color: white;
+      font-weight: 500;
+    }
+    .btn-bootstrap-secondary:hover {
+      background-color: #5a6268;
+      transform: scale(0.98);
+    }
+
+
+
+
+
+    .btn-linkedin-primary {
+      background-color: rgb(10, 102, 194);
+      color: white;
+      font-weight: 550;
+    }
+    .btn-linkedin-primary:hover {
+      background-color: #0a5faf;
+      transform: scale(0.98);
+    }
+
+
+    
+    .btn-linkedin-secondary {
+      background-color: #ffffff;
+      color: #0a66c2;
+      border: 1px solid #0a66c2;
+      font-weight: 550;
+    }
+    .btn-linkedin-secondary:hover {
+      background-color: #eef4fe;
+      transform: scale(0.98);
+    }
+
+
+
+
+    .color-text-meta {
+      background-color: black;
+      font-size: rem;
+      font-weight: 40;
+      background: #6979a8;
+      padding: 5px;
+      border-radius: 40px;
+      font-family: monospace;
+      color:black;
+    }
+  </style>
+</head>
+
+
+
+
+<body>
+<div class="components-panel">
+  <div class="panel-header">
+    <h1>⚡ UI Component Gallery</h1>
+  </div>
+
+
+
+
+
+  <div class="buttons-grid">
+    <div class="button-card">
+      <div class="brand">
+        <h2>Uber</h2>
+        <span class="color-badge">#000000 display flex</span>
+      </div>
+      <div class="button-group">
+        <button class="btn btn-uber">🚗 Request now</button>
+      </div>
+      <div style="margin-top: 10px; font-size: 0.7rem; color: #6c7a91; display: flex; justify-content: flex-end;">
+        <span class="color-text-meta">primary · black</span>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="button-card">
+      <div class="brand">
+        <h2>Amazon</h2>
+        <span class="color-badge">1111111</span>
+      </div>
+      <div class="button-group">
+        <button class="btn btn-amazon"> Add to Cart</button>
+      </div>
+    </div>
+
+
+
+
+    <div class="button-card">
+      <div class="brand">
+        <h2>GitHub</h2>
+        <span class="color-badge">2222222</span>
+      </div>
+      <div class="button-group">
+        <button class="btn btn-github"> Sign up</button>
+      </div>
+    </div>
+
+
+
+
+    <div class="button-card">
+      <div class="brand">
+        <h2>Bootstrap</h2>
+        <span class="color-badge">33333333</span>
+      </div>
+      <div class="button-group">
+        <button class="btn btn-bootstrap-primary"> Get started</button>
+        <button class="btn btn-bootstrap-secondary">⬇️ Download</button>
+      </div>
+      
+    </div>
+
+    
+    <div class="button-card">
+      <div class="brand">
+        <h2>LinkedIn</h2>
+        <span class="color-badge">4444444</span>
+      </div>
+      <div class="button-group">
+        <button class="btn btn-linkedin-primary"> Apply on company website</button>
+        <button class="btn btn-linkedin-secondary"> Save</button>
+      </div>
+     
+
+  <div class="design-note">
+
+  </div>
+</div>
+</body>
+</html>
